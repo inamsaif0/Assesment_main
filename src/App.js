@@ -377,7 +377,7 @@ function App() {
             </Typography>
             <Card sx = {{ margin : "10px", width : "300px" }}>
               <CardContent sx = {{ display : "flex" , flex : 1 , flexDirection : "row" }}>
-                <Avatar {...stringAvatar('Poorab Gangwani')} />
+                <Avatar {...stringAvatar('Inam saif')} />
                 <Typography>
                   <Typography sx = {{ fontSize : "medium" , fontWeight : "bold" , marginLeft : "10px" }}>Inam Saif</Typography>
                   <Typography sx = {{ fontSize : "xx-small" , marginLeft : "10px" }}>CEO Amazon</Typography>
