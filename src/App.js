@@ -97,7 +97,7 @@ function App() {
   );
 
   return (
-    <Box sx = {{ backgroundColor : '#F1F3F9' , width : "1465px"  }} >
+    <Box sx = {{ width : "100%"  }} >
       <CssBaseline />
       <AppBar component="nav" sx={{ backgroundColor : 'white' }}>
       <Toolbar>
@@ -155,6 +155,7 @@ function App() {
       <Toolbar/>
       <Stack
       direction={'row'}
+      sx = {{ backgroundColor : '#F1F3F9' , flexDirection : { md : "row" , xs : "column-reverse" } ,  }}
       >
         <Stack
         direction={'column'}
@@ -182,15 +183,16 @@ function App() {
             </Button>
           </Container>
         </Stack>
-        <img src={Image1} width={600} style={{ flex : 4 }} />
+        <img src={Image1} style={{ flex : 1 , width : { md : "50%" , xs : "100%" } }} />
       </Stack>
       <Stack
       direction={'row'}
+      sx = {{ backgroundColor : '#F1F3F9' , flexDirection : { md : "row" , xs : "column" } }}
       >
-        <img src={Image2} width={600} style={{ flex : 1 }} />
+        <img src={Image2} style={{ flex : 1 , width : { md : "50%" , xs : "100%" } }} />
         <Stack
         direction={'column'}
-        style={{ flex : 1 }}
+        style={{ flex : 1 , backgroundColor : '#F1F3F9' }}
         >
           <Typography sx = {{ textTransform : 'capitalize' , fontSize : '50px' , textAlign : 'center' , marginTop : "100px" , paddingTop : "20px" }}>
             <span style = {{ color : "#77AC28" , fontWeight : 'bold' }}>Professional</span>, licensed, and 
@@ -207,12 +209,13 @@ function App() {
       </Stack>
       <Stack
       direction={'column'}
-      sx = {{ margin : "10px" }}
+      sx = {{ backgroundColor : '#F1F3F9' }}
       >
         <Stack
         direction={'row'}
         justifyContent={'center'}
         spacing={2}
+        sx = {{ backgroundColor : '#F1F3F9' }}
         > 
           <Card sx = {{ backgroundColor : "#F1F3F9" , flex : 1, cursor : "pointer" }} variant='contained'>
             <CardContent>
@@ -243,7 +246,7 @@ function App() {
         direction={'row'}
         spacing={2}
         justifyContent={'center'}
-        sx = {{ marginTop : "10px" }}
+        sx = {{ backgroundColor : '#F1F3F9' }}
         > 
           <Card sx = {{ backgroundColor : "#F1F3F9" , flex : 1 , cursor : "pointer" }} variant='contained'>
             <CardContent>
@@ -272,14 +275,14 @@ function App() {
         </Stack>
       </Stack>
       <Box>
-        <img src={Image3} width={1465} />
+        <img src={Image3} width={'100%'} />
       </Box>
     </Box>
     <Stack
         direction={'row'}
         spacing={2}
         justifyContent={'center'}
-        sx = {{ marginTop : "10px" }}
+        sx = {{ backgroundColor : '#F1F3F9' }}
         > 
           <Card sx = {{ backgroundColor : "#F1F3F9" , flex : 1 , cursor : "pointer" }} variant='contained'>
             <CardContent>
@@ -366,18 +369,18 @@ function App() {
         <Stack
         direction={'row'}
         spacing={2}
-        sx = {{ paddingY : "100px" , marginRight : "50px" }}
+        sx = {{ paddingY : "100px" , backgroundColor : '#F1F3F9' , flexDirection : { md : "row" , xs : "column" } }}
         >
           <Stack
           direction={'column'}
-          sx = {{ flex : 1 , marginLeft : "50px" , alignItems : 'center' }}
+          sx = {{ flex : 1 , marginLeft : "50px" , alignItems : 'center' , backgroundColor : '#F1F3F9' }}
           >
             <Typography variant={'h3'} sx = {{ fontWeight : "bold" , flex : 1 }}>
               See what Partners <br/> are <span style = {{ color : "#77AC28" , fontWeight : 'bold' }}>saying</span>
             </Typography>
             <Card sx = {{ margin : "10px", width : "300px" }}>
               <CardContent sx = {{ display : "flex" , flex : 1 , flexDirection : "row" }}>
-                <Avatar {...stringAvatar('Inam saif')} />
+                <Avatar {...stringAvatar('Inam Saif')} />
                 <Typography>
                   <Typography sx = {{ fontSize : "medium" , fontWeight : "bold" , marginLeft : "10px" }}>Inam Saif</Typography>
                   <Typography sx = {{ fontSize : "xx-small" , marginLeft : "10px" }}>CEO Amazon</Typography>
@@ -408,7 +411,7 @@ function App() {
           </Stack>
           <Stack
           direction={'column'}
-          sx = {{ flex : 1 }}
+          sx = {{ flex : 1 , backgroundColor : '#F1F3F9' }}
           >
             <Card sx = {{ marginRight : "10px" , flex : 1 }}>
               <CardContent sx = {{ display : "flex" , flex : 1 , flexDirection : "column" }}>
