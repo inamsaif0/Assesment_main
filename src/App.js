@@ -379,7 +379,7 @@ function App() {
               <CardContent sx = {{ display : "flex" , flex : 1 , flexDirection : "row" }}>
                 <Avatar {...stringAvatar('Poorab Gangwani')} />
                 <Typography>
-                  <Typography sx = {{ fontSize : "medium" , fontWeight : "bold" , marginLeft : "10px" }}>Poorab Gangwani</Typography>
+                  <Typography sx = {{ fontSize : "medium" , fontWeight : "bold" , marginLeft : "10px" }}>Inam Saif</Typography>
                   <Typography sx = {{ fontSize : "xx-small" , marginLeft : "10px" }}>CEO Amazon</Typography>
                 </Typography>
                 <FormatQuoteIcon sx = {{ marginLeft : "auto" , width : "30px" , height : "30px" , alignSelf : 'center' }} htmlColor="#5E9CD3"/>
