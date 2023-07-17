@@ -97,7 +97,7 @@ function App() {
   );
 
   return (
-    <Box sx = {{ backgroundColor : '#F1F3F9' , width : "auto"  }} >
+    <Box sx = {{ backgroundColor : '#F1F3F9' , width : "1465px"  }} >
       <CssBaseline />
       <AppBar component="nav" sx={{ backgroundColor : 'white' }}>
       <Toolbar>
