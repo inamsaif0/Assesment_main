@@ -415,9 +415,9 @@ function App() {
                 <Stack 
                 direction={'row'}
                 >  
-                  <Avatar {...stringAvatar('Poorab Gangwani')} />
+                  <Avatar {...stringAvatar('Inam Saif')} />
                   <Typography sx = {{ alignSelf : "center" }}>
-                    <Typography sx = {{ fontSize : "medium" , fontWeight : "bold" , marginLeft : "10px" }}>Poorab Gangwani</Typography>
+                    <Typography sx = {{ fontSize : "medium" , fontWeight : "bold" , marginLeft : "10px" }}>Inam Saif</Typography>
                     <Typography sx = {{ fontSize : "xx-small" , marginLeft : "10px" }}>CEO Amazon</Typography>
                   </Typography>
                   <FormatQuoteIcon sx = {{ marginLeft : "auto" , width : "50px" , height : "50px" , alignSelf : 'center' }} htmlColor="#5E9CD3"/>
